@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/11.5/phpunit.xsd" bootstrap="vendor/autoload.php" colors="true" stopOnFailure="false" stopOnError="false" stopOnWarning="false" cacheDirectory=".phpunit.cache">
+  <coverage>
+    <report>
+      <html outputDirectory="build/coverage"/>
+    </report>
+  </coverage>
+  <testsuites>
+    <testsuite name="Unit Tests">
+      <directory>tests/Unit</directory>
+    </testsuite>
+  </testsuites>
+  <logging>
+    <junit outputFile="build/logs/junit.xml"/>
+  </logging>
+  <source>
+    <include>
+      <directory suffix=".php">src</directory>
+    </include>
+  </source>
+</phpunit>

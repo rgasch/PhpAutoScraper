@@ -1,0 +1,11 @@
+includes:
+    - vendor/thecodingmachine/phpstan-safe-rule/phpstan-safe-rule.neon
+
+parameters:
+
+    paths:
+        - src/
+
+    # Level 9 is the highest level
+    level: 6
+
