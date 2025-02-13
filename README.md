@@ -1,8 +1,8 @@
 # AutoScraper
 
-AutoScraper is a PHP class designed to scrape web pages and extract data based on predefined rules. 
-This README provides examples of how to use the class to capture a scraping definition and then reuse 
-this definition to scrape other similar pages.
+1. [ ] **_AutoScraper is a PHP class designed to scrape web pages and extract data based on predefined rules. 
+2. [ ] This README provides examples of how to use the class to capture a scraping definition and then reuse 
+3. [ ] this definition to scrape other similar pages._**
 
 AutoScraper is a port of the [Python AutoScraper](https://github.com/alirezamika/autoscraper) library by [Alireza Mika](https://github.com/alirezamika). 
 It is intended to be compatible in its public API, but it contains some additions and changes to better fit the PHP ecosystem.
